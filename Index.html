@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+      <script src="script.js" defer type="text/javascript" charset="utf-8"></script>
+      
+      <title>simple traffic-based pricing</title>
+   </head>
+   <body>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div>
+         <h1>Simple, traffic-based pricing</h1>
+         <p id="mesage">Sign-up for our 30-day trial.No credit card required</p>
+      </div>
+      <main>
+         <div class="pricingPerViews">
+            <p id="pageviews">100k pageviews</p>
+            <p id="toggleTime"><strong id="price">$16,00</strong> / month</p>
+         </div>
+         
+         <input type="range" name="medida" id="medida" min="0" max="32" value="16" />
+         <div class="timeBilling">
+            <p>Mothly billing</p>
+            <input type="checkbox" name="togglePay" id="togglePay" />
+            <p>Yearly billing</p>
+            <p id="discount">25% discount</p>
+         </div>
+         <hr>
+         <div class="infoPlan">
+            <div class="details">
+               <p><ion-icon name="checkmark-sharp"></ion-icon>   websites ilimitados</p>
+               <p><ion-icon name="checkmark-sharp"></ion-icon>   100% propriedade de dados</p>
+               <p><ion-icon name="checkmark-sharp"></ion-icon>   relatórios de email</p>
+            </div>
+            <button>start my trial</button>
+         </div>
+      </main>
+      
+      <script type = "module" src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script>
+      <script nomodule src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   </body>
+</html>
